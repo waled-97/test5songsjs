@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONGS</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <main id="player">
+    <header>
+      <img src="photos/programmer.jpg" alt="">
+      <h2>ISLAMIC SONGS</h2>
+      <P id="title_radio">Radio 1 </P>
+    </header>
+    <div id="content">
+      <article id="buttons">
+        <img src="photos/back.png" alt="" id="back">
+        <img src="photos/play.png" alt="" id="play_pause">
+        <img src="photos/next.png" alt="" id="next">
+        <audio src="photos/ارى الاحبة من دنياي قد رحلو ... اروع الاناشيد [jUjHO1PZvT4].mp3" id="audio"></audio>
+      </article>
+      <article id="volume">
+        <h2>الصوت</h2>
+        <input type="range" id="volume_range">
+        <h2>السرعة</h2>
+        <input type="range" id="volume_speed" max="200" min="0">
+      </article>
+      <article id="color">
+         <button id="color1"></button>
+         <button id="color2"></button>
+         <button id="color3"></button>
+         <button id="color4"></button>
+      </article>
+    </div>
+
+  </main>
+  <script src="test.js"></script>
+  <script src="volume.js"></script>
+  <script src="Color.js"></script>
+</body>
+</html>
